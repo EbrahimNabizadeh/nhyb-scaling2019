@@ -1,4 +1,4 @@
 # nhyb-scaling2019
-The QG folder includes the code that we have run for the quasi-geostrophic flow.
-GCMnamelistT63L40 contains the information of our setup for the GCM simulations.
-DG and S06 are the Dole and Gordon and modified Scherrer indices used in this study.
+1- QG folder includes the code that we have run for the quasi-geostrophic flow.
+2- GCMnamelistT63L40 contains the information of our setup for the GCM simulations.
+3- DG and S06 are the Dole and Gordon and modified Scherrer indices used in this study.
