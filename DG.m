@@ -239,7 +239,7 @@ for m=1:40 %for loop over all the members in large ensembles, 40 for LENS and 20
                 while i<=lf
                     gg=Posblockinfo(i,3)-(Posblockinfo(i,2));
                     jj=1;
-                    while jj<=(Posblockinfo(i,2))
+                    for jj=1:Posblockinfo(i,2)
                         c=contourc(double(Xplot),double(yyy),double(squeeze(normaldata1(y,:,:,gg+jj)))',[1 1]);%hh=colorbar;title(['Day' num2str(gg+jj)]);set(hh, 'ylim', [-2 2])
                         if ~isempty(c)
                             [xa,ya,z]=C2xyz(c);
