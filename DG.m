@@ -143,7 +143,7 @@ for m=1:40 %for loop over all the members in large ensembles, 40 for LENS and 20
     end
     xx={lonNP,lonNA,lonR,lonSH};
     yy={latNH,latNH,latNH,latSH};
-    lonPlotNA=[lon(66:end);lon(1:65)+360];
+    lonPlotNA=[lon(146:end);lon(1:145)+360];
     XXplot={lon,lonPlotNA,lon,lonSH};
     allsectors={noseasonzNP,noseasonzNA,noseasonzR,noseasonzSH};
     noseasonzNAplot=cat(2,noseasonzNH(:,146:end,:,:),noseasonzNH(:,1:145,:,:));
